@@ -35,6 +35,7 @@
 				<div class="panel-heading text-center">
 					
 					<!--Text-->
+					<h1>Sign Up</h1>
 				
 				</div>
 				
