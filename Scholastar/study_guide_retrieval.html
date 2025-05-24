@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<!--metadata-->
+<head>
+		
+	<!--Page Title-->
+	<title>Study Guide Retrieval | Sturch</title>
+		
+	<!--Bootstrap Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		
+	<!--Icon-->
+	<link rel="icon" href="images/favicon.ico" type="image/ico">
+		
+ </head>
+  
+  <!--Page Contents-->
+<body>
+  
+	<!--Form Container-->
+    <div class="container">
+		
+		
+		<div class="row col-md-6 col-md-offset-3">
+			
+			<div class="panel panel-primary">
+		
+				<!--Header-->
+				<div class="panel-heading text-center">
+				
+					<h1>Retrieval Form</h1>
+					
+				</div>
+				
+				<!--Form Elements-->
+				<div class="panel-body">
+				
+				<!--Connect Form to PHP File-->
+				<form action="connect_study_guide_retrieval.php" method="post" enctype="multipart/form-data">
+					
+					<!--Take Username-->
+					<div class="form-group">
+					
+						<!--Text-->
+						<label for="sName">Username</label>
+						
+						<!--Input-->
+						<input type="text"class="form-control" id="sName" name="sName"/>
+						
+					</div>
+
+					
+					<!--Submit Button-->
+					<input type="submit" class="btn btn-primary" />
+				  
+				</form>
+				
+			  </div>
+			  
+			</div>
+			
+		</div>
+		
+    </div>
+	
+</div>
+</body>
+</html>
